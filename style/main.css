@@ -1,0 +1,208 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+      url("../fonts/Roboto-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+      url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .container {
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .sign-bg {
+    background: url(../images/image.png);
+    height: 100vh;
+    width: 720px;
+    background-repeat: no-repeat;
+  }
+  .sing-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .sing-up {
+    padding-right: 180px;
+    padding-top: 100px;
+  }
+  .sign {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    /* 800 */
+  
+    color: #2d3748;
+  }
+  .login-h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+  
+    /* 900 */
+  
+    color: #1a202c;
+    margin-bottom: 24px;
+  }
+  .opt {
+    width: 350px;
+    height: 50px;
+    padding: 17px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+  }
+  .email {
+    margin-bottom: 12px;
+  }
+  .email-i {
+    border: none;
+  }
+  .email-i:focus {
+    outline: none;
+  }
+  .email-p {
+    margin-bottom: 11px;
+  }
+  .password {
+    margin-bottom: 28px;
+  }
+  .remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 27px;
+  }
+  .remerber-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2d3748;
+    margin-left: 11px;
+  }
+  .check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .check-i {
+    background: #f7fafc;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+  }
+  .forgot {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  
+    /* 800 */
+  
+    color: #2c5282;
+  }
+  .login {
+    width: 347px;
+    height: 50px;
+    padding: 15px 136px 16px 117px;
+    background: #04c45c;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .login-with-google {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* identical to box height */
+    padding: 15px;
+    color: #ffffff;
+    background: #2d3748;
+    border-radius: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+  }
+  .free {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .free-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    color: #616161;
+  }
+  .free-a {
+    color: linear-gradient(0deg, #2b6cb0, #2b6cb0);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
